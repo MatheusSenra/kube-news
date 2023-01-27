@@ -18,5 +18,8 @@
     "pg-hstore": "^2.3.4",
     "prom-client": "^14.0.1",
     "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "request": "^2.88.2"
   }
 }
