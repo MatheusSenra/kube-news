@@ -33,7 +33,6 @@ spec:
     app: postgre
   ports:
     - port: 5432
-  type: LoadBalancer
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -74,4 +73,3 @@ spec:
   ports:
     - port: 80
       targetPort: 8080
-  type: LoadBalancer
